@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gulvel Plant</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav> 
+            <a href="#">Home</a> &gt; 
+            <a href="#">Medicinal Plants</a> &gt;
+            <a href="#">Gulvel Plant</a>
+        </nav>
+    </header>
+    <main>
+        <section class="product-details">
+            <div class="images">
+                <img id="main-img" src="https://www.ugaoo.com/cdn/shop/products/gulvel-plant-31263334629508.png?v=1675592458&width=375" alt="Gulvel Plant">
+                <div class="thumbnails">
+                    <img src="https://www.ugaoo.com/cdn/shop/products/gulvel-plant-31263334629508.png?v=1675592458&width=375" alt="Thumbnail 1" onclick="changeImage(this)">
+                    <img src="p11.webp" alt="Thumbnail 2" onclick="changeImage(this)">
+                    <img src="p111.webp" alt="Thumbnail 3" onclick="changeImage(this)">
+                </div>
+            </div>
+            <div class="details">
+                <h1>Gulvel Plant</h1>
+                <p class="price">₹ 499 <span>Inclusive of all taxes</span></p>
+                
+                <p>*This product will be shipped using our courier partners</p>
+                <p>**Products will be shipped within 2 days of order placement</p>
+                <form>
+                    <div class="pincode-checker">
+                        <input type="text" placeholder="Enter pincode to check delivery">
+                        <button>Check</button>
+                    </div>
+                </form>
+                <div class="buttons">
+                    <button class="love-button"><i class="fas fa-heart"></i></button>
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+                <p class="delivery-date">Earliest can be delivered by <strong>28 - Jun</strong></p>
+            </div>
+        </section>
+        <section class="product-description">
+            <h2>Product Description</h2>
+            <h3>Product Details</h3>
+            <ul>
+                <li>Plant Name- Gulvel Plant </li>
+                <li>Plant Type- Medicinal Plant</li>
+                <li>Belongs to the family Menispermaceae and scientifically it is called Tinospora cordifolia.</li>
+                <li>Plant Height- 45 cm</li>
+            </ul>
+            <h3>Delivery Details</h3>
+            <ul>
+                <li>The image displayed is indicative.</li>
+                <li>Actual products may vary in shape or design as per the availability.</li>
+                <li>Since this product is shipped using the services of our courier partners, the date of delivery is an estimate.</li>
+                <li>A courier product is delivered separately from other hand-delivered products.</li>
+                <li>No deliveries are made on Sundays and National Holidays.</li>
+                <li>Our courier partners do not call before delivering an order, so we recommend that you provide an address at which someone will be present to receive the package.</li>
+                <li>The delivery cannot be redirected to any other address.</li>
+                <li>All courier orders are carefully packed and shipped from our warehouse.</li>
+                <li>As this is a real plant, the plant's height, and colors might vary slightly.</li>
+                <li>There are certain risks associated with live shipping plants.</li>
+                <li>While we take all precautions to ensure the plants arrive in good condition, some transit shock is normal.</li>
+                <li>The selected delivery date is an estimate that relies on the product's availability and the location to which you want it shipped.</li>
+                <li>You will get a tracking number soon after the order has been dispatched so that you can follow the gift delivery.</li>
+            </ul>
+        </section>
+    </main>
+    <script>
+        function changeImage(element) {
+            var mainImg = document.getElementById('main-img');
+            mainImg.src = element.src;
+        }
+    </script>
+</body>
+</html>
